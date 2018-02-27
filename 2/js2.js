@@ -5,4 +5,7 @@
 
 let a = 2;
 let x = 1 + (a *= 2);
+console.log(x);
+// x = 1 + 2 * 2 (a *= 2) = (a = a * 2)
+// x = 5
 
