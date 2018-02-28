@@ -34,17 +34,17 @@ function mathOperation(arg1, arg2, operation) {
             console.log(addition(arg1, arg2));
             break;
         case "difference":
-            console.log(difference(arg1., arg2));
+            console.log(difference(arg1, arg2));
             break;
         case "division":
-            console.log(division(arg1., arg2));
+            console.log(division(arg1, arg2));
             break;
         case "multiplication":
-            console.log(multiplication(arg1., arg2));
+            console.log(multiplication(arg1, arg2));
             break;
 
     }
 
 
 }
-mathOperation(5, 3, division);
+mathOperation(5, 3, "division");
